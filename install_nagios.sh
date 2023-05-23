@@ -30,7 +30,7 @@ if [ $? ]; then
 groupadd nagcmd
 fi
 
-exit
+# exit
 usermod -a -G nagcmd nagios
 
 usermod -a -G nagios,nagcmd apache
